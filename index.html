@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hindu Culture Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        .page-transition-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #FF9933, #138808);
+            transform: scaleY(0);
+            transform-origin: top;
+            transition: transform 0.5s ease;
+            z-index: 9999;
+            pointer-events: none;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            transition: opacity 0.5s ease;
+            opacity: 1;
+        }
+        header {
+            background: linear-gradient(135deg, #FF9933, #ff7e1a);
+            color: white;
+            text-align: center;
+            padding: 3rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 0.5em auto;
+            opacity: 0.9;
+            max-width: 600px;
+        }
+        nav {
+            background: linear-gradient(135deg, #138808, #0a6404);
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        nav a:hover {
+            background-color: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        h2, h3 {
+            color: #FF9933;
+            margin-top: 1.5em;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            padding: 0.5em 0;
+            margin: 0.5em 0;
+            padding-left: 1.5em;
+            position: relative;
+        }
+        ul li:before {
+            content: "•";
+            color: #138808;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        p {
+            text-align: justify;
+            color: #555;
+        }
+        @media (max-width: 600px) {
+            header {
+                padding: 2rem 1rem;
+            }
+            .container {
+                margin: 1rem;
+                padding: 1rem;
+            }
+            nav a {
+                margin: 0 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exploring Hindu Culture</h1>
+        <p>A Journey Through One of the World's Oldest Religions</p>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sources.html">Sources</a>
+        <a href="author.html">About the Author</a>
+    </nav>
+
+    <div class="container">
+        <h2>Welcome to Our Hindu Culture Blog</h2>
+        <p>Hinduism is one of the world's oldest religions, originating in the Indian subcontinent. This blog explores the rich traditions, festivals, and beliefs that make up Hindu culture.</p>
+        
+        <h3>Key Aspects of Hindu Culture</h3>
+        <ul>
+            <li>Religious Practices and Beliefs</li>
+            <li>Festivals and Celebrations</li>
+            <li>Art and Architecture</li>
+            <li>Music and Dance</li>
+            <li>Philosophy and Literature</li>
+        </ul>
+
+        <h3>Featured Article: Understanding Hindu Festivals</h3>
+        <p>Hindu festivals are celebrated throughout the year, each with its own significance and unique traditions. From the colorful celebration of Holi to the festival of lights, Diwali, these celebrations bring communities together and showcase the vibrant nature of Hindu culture.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
